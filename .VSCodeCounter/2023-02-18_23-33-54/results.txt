@@ -1,0 +1,132 @@
+Date : 2023-02-18 23:33:54
+Directory : /Users/saugatsingh/Documents/Projects/app
+Total : 66 files,  3476 codes, 131 comments, 554 blanks, all 4161 lines
+
+Languages
++-----------------+------------+------------+------------+------------+------------+
+| language        | files      | code       | comment    | blank      | total      |
++-----------------+------------+------------+------------+------------+------------+
+| HTML            |         11 |      1,648 |         23 |        143 |      1,814 |
+| Java            |         38 |        932 |         20 |        290 |      1,242 |
+| CSS             |          8 |        595 |         28 |         62 |        685 |
+| JavaScript      |          3 |        107 |          9 |         16 |        132 |
+| Batch           |          1 |        102 |         51 |         36 |        189 |
+| XML             |          3 |         85 |          0 |          5 |         90 |
+| Java Properties |          2 |          7 |          0 |          2 |          9 |
++-----------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                            | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                               |         66 |      3,476 |        131 |        554 |      4,161 |
+| . (Files)                                                                                                       |          2 |        185 |         51 |         40 |        276 |
+| .mvn                                                                                                            |          1 |          2 |          0 |          1 |          3 |
+| .mvn/wrapper                                                                                                    |          1 |          2 |          0 |          1 |          3 |
+| src                                                                                                             |         63 |      3,289 |         80 |        513 |      3,882 |
+| src/main                                                                                                        |         62 |      3,280 |         80 |        508 |      3,868 |
+| src/main/java                                                                                                   |         37 |        923 |         20 |        285 |      1,228 |
+| src/main/java/com                                                                                               |         37 |        923 |         20 |        285 |      1,228 |
+| src/main/java/com/kjlc                                                                                          |         37 |        923 |         20 |        285 |      1,228 |
+| src/main/java/com/kjlc/app                                                                                      |         37 |        923 |         20 |        285 |      1,228 |
+| src/main/java/com/kjlc/app (Files)                                                                              |          1 |          9 |          0 |          5 |         14 |
+| src/main/java/com/kjlc/app/Entity                                                                               |          6 |        170 |          4 |         39 |        213 |
+| src/main/java/com/kjlc/app/SecurityContext                                                                      |          1 |         24 |          1 |          9 |         34 |
+| src/main/java/com/kjlc/app/config                                                                               |          1 |          8 |          0 |          3 |         11 |
+| src/main/java/com/kjlc/app/controller                                                                           |          5 |        268 |          1 |         56 |        325 |
+| src/main/java/com/kjlc/app/repository                                                                           |          6 |         49 |          0 |         35 |         84 |
+| src/main/java/com/kjlc/app/security                                                                             |          2 |         62 |         13 |         22 |         97 |
+| src/main/java/com/kjlc/app/services                                                                             |         13 |        235 |          0 |         93 |        328 |
+| src/main/java/com/kjlc/app/services (Files)                                                                     |          6 |         48 |          0 |         24 |         72 |
+| src/main/java/com/kjlc/app/services/impl                                                                        |          7 |        187 |          0 |         69 |        256 |
+| src/main/java/com/kjlc/app/utils                                                                                |          2 |         98 |          1 |         23 |        122 |
+| src/main/resources                                                                                              |         25 |      2,357 |         60 |        223 |      2,640 |
+| src/main/resources (Files)                                                                                      |          1 |          5 |          0 |          1 |          6 |
+| src/main/resources/static                                                                                       |         13 |        704 |         37 |         79 |        820 |
+| src/main/resources/static/assets                                                                                |          5 |          7 |         14 |          1 |         22 |
+| src/main/resources/static/assets/brand                                                                          |          2 |          2 |          0 |          1 |          3 |
+| src/main/resources/static/assets/dist                                                                           |          3 |          5 |         14 |          0 |         19 |
+| src/main/resources/static/assets/dist/css                                                                       |          2 |          4 |          8 |          0 |         12 |
+| src/main/resources/static/assets/dist/js                                                                        |          1 |          1 |          6 |          0 |          7 |
+| src/main/resources/static/css                                                                                   |          6 |        591 |         20 |         62 |        673 |
+| src/main/resources/static/js                                                                                    |          2 |        106 |          3 |         16 |        125 |
+| src/main/resources/templates                                                                                    |         11 |      1,648 |         23 |        143 |      1,814 |
+| src/test                                                                                                        |          1 |          9 |          0 |          5 |         14 |
+| src/test/java                                                                                                   |          1 |          9 |          0 |          5 |         14 |
+| src/test/java/com                                                                                               |          1 |          9 |          0 |          5 |         14 |
+| src/test/java/com/kjlc                                                                                          |          1 |          9 |          0 |          5 |         14 |
+| src/test/java/com/kjlc/app                                                                                      |          1 |          9 |          0 |          5 |         14 |
++-----------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+
+| filename                                                                                                        | language        | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+
+| /Users/saugatsingh/Documents/Projects/app/.mvn/wrapper/maven-wrapper.properties                                 | Java Properties |          2 |          0 |          1 |          3 |
+| /Users/saugatsingh/Documents/Projects/app/mvnw.cmd                                                              | Batch           |        102 |         51 |         36 |        189 |
+| /Users/saugatsingh/Documents/Projects/app/pom.xml                                                               | XML             |         83 |          0 |          4 |         87 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/AppApplication.java                        | Java            |          9 |          0 |          5 |         14 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/Entity/Question.java                       | Java            |         24 |          0 |          6 |         30 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/Entity/Result.java                         | Java            |         22 |          0 |          4 |         26 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/Entity/Student.java                        | Java            |         29 |          0 |          6 |         35 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/Entity/Submission.java                     | Java            |         21 |          0 |          3 |         24 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/Entity/Test.java                           | Java            |         20 |          0 |          6 |         26 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/Entity/User.java                           | Java            |         54 |          4 |         14 |         72 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/SecurityContext/Context.java               | Java            |         24 |          1 |          9 |         34 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/config/PasswordEncoderUtil.java            | Java            |          8 |          0 |          3 |         11 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/controller/AdminController.java            | Java            |         85 |          1 |         20 |        106 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/controller/AdminDashController.java        | Java            |         53 |          0 |         10 |         63 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/controller/LoginController.java            | Java            |         23 |          0 |          4 |         27 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/controller/UserController.java             | Java            |         66 |          0 |         11 |         77 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/controller/UserDashController.java         | Java            |         41 |          0 |         11 |         52 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/repository/QuestionRepository.java         | Java            |         10 |          0 |          6 |         16 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/repository/ResultRepository.java           | Java            |          9 |          0 |          6 |         15 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/repository/StudentRepository.java          | Java            |          5 |          0 |          5 |         10 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/repository/SubmissionRepository.java       | Java            |         11 |          0 |          7 |         18 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/repository/TestRepository.java             | Java            |          5 |          0 |          5 |         10 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/repository/UserRepository.java             | Java            |          9 |          0 |          6 |         15 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/security/AuthenticationSuccessHandler.java | Java            |         25 |          0 |         12 |         37 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/security/SpringSecurityConfig.java         | Java            |         37 |         13 |         10 |         60 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/QuestionService.java              | Java            |          9 |          0 |          4 |         13 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/ResultService.java                | Java            |          7 |          0 |          4 |         11 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/StudentService.java               | Java            |          8 |          0 |          4 |         12 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/SubmissionService.java            | Java            |          8 |          0 |          4 |         12 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/TestService.java                  | Java            |         11 |          0 |          5 |         16 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/UserService.java                  | Java            |          5 |          0 |          3 |          8 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/impl/CustomUserDetailService.java | Java            |         16 |          0 |          7 |         23 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/impl/QuestionServiceImpl.java     | Java            |         37 |          0 |         14 |         51 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/impl/ResultServiceImpl.java       | Java            |         20 |          0 |          9 |         29 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/impl/StudentServiceImpl.java      | Java            |         24 |          0 |          9 |         33 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/impl/SubmissionServiceImpl.java   | Java            |         28 |          0 |         11 |         39 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/impl/TestServiceImpl.java         | Java            |         35 |          0 |         12 |         47 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/impl/UserServiceImpl.java         | Java            |         27 |          0 |          7 |         34 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/utils/Builder.java                         | Java            |         69 |          0 |         14 |         83 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/utils/ResultUtils.java                     | Java            |         29 |          1 |          9 |         39 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/application.properties                             | Java Properties |          5 |          0 |          1 |          6 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/static/assets/brand/bootstrap-logo-white.svg       | XML             |          1 |          0 |          0 |          1 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/static/assets/brand/bootstrap-logo.svg             | XML             |          1 |          0 |          1 |          2 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/static/assets/dist/css/bootstrap.min.css           | CSS             |          2 |          4 |          0 |          6 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/static/assets/dist/css/bootstrap.rtl.min.css       | CSS             |          2 |          4 |          0 |          6 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/static/assets/dist/js/bootstrap.bundle.min.js      | JavaScript      |          1 |          6 |          0 |          7 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/static/css/CreateTest.css                          | CSS             |          7 |          0 |          1 |          8 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/static/css/dashboard.css                           | CSS             |        140 |         14 |         15 |        169 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/static/css/dashboard.rtl.css                       | CSS             |         66 |          6 |         17 |         89 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/static/css/login.css                               | CSS             |         69 |          0 |         14 |         83 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/static/css/login_.css                              | CSS             |        155 |          0 |          8 |        163 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/static/css/register.css                            | CSS             |        154 |          0 |          7 |        161 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/static/js/dashboard.js                             | JavaScript      |         47 |          3 |          4 |         54 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/static/js/login.js                                 | JavaScript      |         59 |          0 |         12 |         71 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/templates/ViewSubmission.html                      | HTML            |          7 |          0 |          0 |          7 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/templates/createTest.html                          | HTML            |        261 |          1 |         25 |        287 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/templates/editTest.html                            | HTML            |        269 |          1 |         22 |        292 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/templates/forgot.html                              | HTML            |         51 |          0 |          2 |         53 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/templates/home.html                                | HTML            |        251 |         16 |         19 |        286 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/templates/listStudents.html                        | HTML            |        220 |          1 |         20 |        241 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/templates/login.html                               | HTML            |         71 |          0 |          6 |         77 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/templates/register.html                            | HTML            |        119 |          3 |         12 |        134 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/templates/reset.html                               | HTML            |         52 |          0 |          2 |         54 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/templates/test.html                                | HTML            |        109 |          0 |         16 |        125 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/templates/testView.html                            | HTML            |        238 |          1 |         19 |        258 |
+| /Users/saugatsingh/Documents/Projects/app/src/test/java/com/kjlc/app/AppApplicationTests.java                   | Java            |          9 |          0 |          5 |         14 |
+| Total                                                                                                           |                 |      3,476 |        131 |        554 |      4,161 |
++-----------------------------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+

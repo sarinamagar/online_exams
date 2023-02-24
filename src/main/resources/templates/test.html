@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en" xmlns:th ="http://thymeleaf.org">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="/css/CreateTest.css">
+    <title>KJLC Test Dashboard</title>
+	<link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="/css/dashboard.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header class="navbar navbar-light sticky-top bg-light flex-md-nowrap p-0 shadow">
+	<button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+</header>
+<div class="logo col-lg-2 aln-mid">
+	<a href="/index.html"><img src="/images/kantipur-logo.png" alt="KantipurJapanese Language Center" /></a>
+</div> 
+
+<div class="container-fluid">
+
+<button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+  </button>
+		<nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
+			<div class="position-sticky pt-3 sidebar-sticky">
+				<ul class="nav flex-column">
+          <li class="nav-item">
+						<a class="nav-link">
+						  <span id = "testname" data-feather="file-text" class="align-text-bottom" style="color: #0a58ca;">
+
+              </span>     
+              <script> document.write("[[${test.TestName}]]");</script>
+						</a>
+            
+					</li>
+          <li class="nav-item" >
+						<a class="nav-link" >
+						  <span id = "test-date" data-feather="calendar" class="align-text-bottom" style="color: #0a58ca;">
+                  
+              </span>      
+              <script>
+                var date = new Date();
+                var year = date.getFullYear();
+                var month = date.getMonth() + 1; 
+                var day = date.getDate();
+                document.write(day + "-" + month +"-"+ year);
+                </script>
+						</a>
+            
+					</li>
+          <li class="nav-item">
+						<a class="nav-link">
+						  <span id = "student-name" data-feather="user" class="align-text-bottom" style="color: #0a58ca;">
+                 
+              </span>  
+                <script> document.write("[[${user}]]");</script>
+						</a>
+            
+					</li>
+          <li class="nav-item">
+						<a class="nav-link">
+						  <span id = "level" data-feather="bar-chart" class="align-text-bottom" style="color: #0a58ca;">
+                  
+              </span>      
+              Level : <script> document.write([[${test.level}]]);</script>
+						</a>
+            
+					</li>
+
+          <li class="nav-item">
+						<a class="nav-link" id = "countdown" style="color: #d02839;">
+						  
+						</a>
+            
+					</li>
+				</ul>
+				
+		</nav>
+
+		<main class="col-md-9 ms-sm-auto col-lg-10 px-md-4 ">
+      
+			<div class="test">
+                <div class="container mt-5">
+                    <h2 id ="title" class="text-center"></h2>
+                    <form th:action = "@{/user/test/submit/} +${test.testID}" th:object ="${Submission}" method="post" id = "question-form"></form>
+                      <div class="text-center" id ="question-title"></div>
+                      <div id="image" class="d-flex justify-content-center">
+                
+                      </div>
+                       <div class="form-check">
+                          <input class="form-check-input" type="radio" name="answer" id="optionA" value="A" required>
+                          <label class="form-check-label" for="optionA">
+                             <span id ="optionA-text"></span>
+                          </label>
+                       </div>
+                       <div class="form-check">
+                          <input class="form-check-input" type="radio" name="answer" id="optionB" value="B" required>
+                          <label class="form-check-label" for="optionB">
+                             <span id ="optionB-text"></span>
+                          </label>
+                       </div>
+                       <div class="form-check">
+                          <input class="form-check-input" type="radio" name="answer" id="optionC" value="C" required>
+                          <label class="form-check-label" for="optionC">
+                             <span id ="optionC-text"></span>
+                          </label>
+                       </div>
+                       <div class="form-check">
+                          <input class="form-check-input" type="radio" name="answer" id="optionD" value="D" required>
+                          <label class="form-check-label" for="optionD">
+                             <span id ="optionD-text"></span>
+                          </label>
+                       </div>
+                       <div class="d-flex justify-content-end mt-3">
+                         <div class="btn btn-primary" id="next" style="cursor: pointer;">Next</div>
+                         <Button type="submit" class="btn btn-primary" id ="submit" style="display: none;"> Submit </Button>
+                       </div>
+                        
+                 </div> 
+				
+            </div>
+            <style>
+              #question-title{
+                font-size: 18px ;
+                padding: 20px;
+              }
+              [type="radio"]:checked,
+              [type="radio"]:not(:checked) {
+              position: absolute;
+              left: -9999px;
+              }
+              [type="radio"]:checked + label,
+              [type="radio"]:not(:checked) + label
+              {
+              position: relative;
+              padding-left: 28px;
+              cursor: pointer;
+              line-height: 20px;
+              display: inline-block;
+              color: #666;
+              }
+              [type="radio"]:checked + label:before,
+              [type="radio"]:not(:checked) + label:before {
+              content: '';
+              position: absolute;
+              left: 0;
+              top: 0;
+              width: 18px;
+              height: 18px;
+              border: 1px solid #0a58ca;
+              border-radius: 100%;
+              background: #cfe2ff;
+              }
+              [type="radio"]:checked + label:after,
+              [type="radio"]:not(:checked) + label:after {
+                  content: '';
+                  width: 12px;
+                  height: 12px;
+                  background: #0a58ca;
+                  position: absolute;
+                  top: 3px;
+                  left: 3px;
+                  border-radius: 100%;
+                  -webkit-transition: all 0.2s ease;
+                  transition: all 0.2s ease;
+              }
+              [type="radio"]:not(:checked) + label:after {
+                  opacity: 0;
+                  -webkit-transform: scale(0);
+                  transform: scale(0);
+              }
+              [type="radio"]:checked + label:after {
+                  opacity: 1;
+                  -webkit-transform: scale(1);
+                  transform: scale(1);
+              }
+              .form-check{
+                margin: 20px;
+              }
+            </style>
+    </main>
+  </div>
+</div>
+
+
+    <script src="/assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script>
+	<script src="/js/dashboard.js"></script>
+    <script th:inline="javascript">
+        var testID = "[[${test.testID}]]";
+        var index = 0;
+        var form = document.getElementById("question-form");
+        var next = document.getElementById('next');
+        var question = [[${questions}]];
+        var questionTitle = document.getElementById("question-title");
+        var optionA = document.getElementById("optionA-text");
+        var optionB = document.getElementById("optionB-text");
+        var optionC = document.getElementById("optionC-text");
+        var optionD = document.getElementById("optionD-text");
+        var radio = document.getElementsByTagName("input");
+        var title = document.getElementById("title");
+        var button = document.getElementById("submit");
+        var questionImage = document.getElementById("image");
+        var submission = [];
+    
+        function radioValue(index){
+          if(index != 0){
+             for(i = 0; i < radio.length; i++) {
+                      
+                if(radio[i].type="radio") {
+                   if(radio[i].checked){
+                      var submissionObject = {
+                         "answer":radio[i].value,
+                         "questionID":question[index-1].questionID
+                   }  
+                      console.log(radio[i].value)
+                      submission.push(submissionObject);
+                   }
+                      
+                }
+    
+             }
+    
+          }
+        }
+    
+        async function submit(){
+          radioValue(index)
+          console.log(submission)
+          var response = fetch("http://localhost:8080/user/test/submit/" + testID, {
+          method: "POST",
+          body: JSON.stringify(submission),
+          headers: {
+          "Content-type": "application/json; charset=UTF-8"
+          }
+          });
+          var url = await response;
+          window.location.href = (url.url)
+        }
+    
+    
+        function displayQuestion() {
+            if(index < question.length){
+                if(index == (question.length-1)){
+                   button.style.display="initial";
+                   next.style.display="none";
+                }
+                
+                radioValue(index);
+                writeHtml(index);
+                index ++;
+            }
+    
+        }
+    
+        function writeHtml(index){
+           questionTitle.innerText = (index+1) + '. ' +question[index].questionText;
+           optionA.innerText = question[index].optionA;
+           optionB.innerText = question[index].optionB;
+           optionC.innerText = question[index].optionC;
+           optionD.innerText = question[index].optionD;
+           //title.innerText = "Question " + (index+1);
+           if(question[index].image != null){
+             questionImage.innerHTML = "";
+             var node = document.createElement("div")
+             node.innerHTML = `<img src = "/images/uploads/`+ question[index].image +`.png" height = "250px">`;
+             questionImage.append(node);
+           }
+           else{
+            questionImage.innerText = "";
+           }
+        }
+        
+        displayQuestion();
+       next.addEventListener("click", displayQuestion);
+       button.addEventListener("click", submit)
+       
+    
+     </script>
+     <script>
+
+        var countDownDate = new Date().getTime() + (30 * 60 * 1000);
+        var countdownTimer = setInterval(function() {
+          var now = new Date().getTime();
+          var distance = countDownDate - now;
+          var minutes = Math.floor(distance / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          document.getElementById("countdown").innerHTML = "Time remaining: " + minutes + "m " + seconds + "s";
+          if (distance < 0) {
+            submit();
+          }
+          }, 1000);
+
+     </script>
+  </body>
+</html>

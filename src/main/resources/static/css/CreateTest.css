@@ -1,0 +1,11 @@
+.line{
+    width: 80%;
+    height: 1px;
+    background-color: #2470dc;
+    margin: 40px auto;
+    ;
+}
+#submit{
+    background-color: #cfe2ff !important;
+    color: #0a58ca !important;
+   }

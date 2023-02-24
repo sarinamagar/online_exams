@@ -1,0 +1,66 @@
+Date : 2023-02-10 17:06:40
+Directory : /Users/saugatsingh/app
+Total : 24 files,  118 codes, -2 comments, 59 blanks, all 175 lines
+
+Languages
++-----------------+------------+------------+------------+------------+------------+
+| language        | files      | code       | comment    | blank      | total      |
++-----------------+------------+------------+------------+------------+------------+
+| Java            |         16 |        144 |          1 |         47 |        192 |
+| Java Properties |          1 |          0 |          0 |         -1 |         -1 |
+| HTML            |          7 |        -26 |         -3 |         13 |        -16 |
++-----------------+------------+------------+------------+------------+------------+
+
+Directories
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                       | files      | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                          |         24 |        118 |         -2 |         59 |        175 |
+| src                                                                                        |         24 |        118 |         -2 |         59 |        175 |
+| src/main                                                                                   |         24 |        118 |         -2 |         59 |        175 |
+| src/main/java                                                                              |         16 |        144 |          1 |         47 |        192 |
+| src/main/java/com                                                                          |         16 |        144 |          1 |         47 |        192 |
+| src/main/java/com/kjlc                                                                     |         16 |        144 |          1 |         47 |        192 |
+| src/main/java/com/kjlc/app                                                                 |         16 |        144 |          1 |         47 |        192 |
+| src/main/java/com/kjlc/app/Entity                                                          |          3 |         14 |          0 |          4 |         18 |
+| src/main/java/com/kjlc/app/SecurityContext                                                 |          1 |          8 |          1 |          4 |         13 |
+| src/main/java/com/kjlc/app/controller                                                      |          4 |         75 |          0 |         13 |         88 |
+| src/main/java/com/kjlc/app/repository                                                      |          2 |         10 |          0 |          6 |         16 |
+| src/main/java/com/kjlc/app/services                                                        |          6 |         37 |          0 |         20 |         57 |
+| src/main/java/com/kjlc/app/services (Files)                                                |          3 |         13 |          0 |          6 |         19 |
+| src/main/java/com/kjlc/app/services/impl                                                   |          3 |         24 |          0 |         14 |         38 |
+| src/main/resources                                                                         |          8 |        -26 |         -3 |         12 |        -17 |
+| src/main/resources (Files)                                                                 |          1 |          0 |          0 |         -1 |         -1 |
+| src/main/resources/templates                                                               |          7 |        -26 |         -3 |         13 |        -16 |
++--------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++--------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+
+| filename                                                                                   | language        | code       | comment    | blank      | total      |
++--------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+
+| /Users/saugatsingh/app/src/main/java/com/kjlc/app/Entity/Question.java                     | Java            |          1 |          0 |          0 |          1 |
+| /Users/saugatsingh/app/src/main/java/com/kjlc/app/Entity/Submission.java                   | Java            |         22 |          0 |          4 |         26 |
+| /Users/saugatsingh/app/src/main/java/com/kjlc/app/Entity/Test.java                         | Java            |         -9 |          0 |          0 |         -9 |
+| /Users/saugatsingh/app/src/main/java/com/kjlc/app/SecurityContext/Context.java             | Java            |          8 |          1 |          4 |         13 |
+| /Users/saugatsingh/app/src/main/java/com/kjlc/app/controller/AdminController.java          | Java            |          3 |          0 |          0 |          3 |
+| /Users/saugatsingh/app/src/main/java/com/kjlc/app/controller/AdminDashController.java      | Java            |         26 |          0 |          5 |         31 |
+| /Users/saugatsingh/app/src/main/java/com/kjlc/app/controller/UserController.java           | Java            |         17 |          0 |          1 |         18 |
+| /Users/saugatsingh/app/src/main/java/com/kjlc/app/controller/UserDashController.java       | Java            |         29 |          0 |          7 |         36 |
+| /Users/saugatsingh/app/src/main/java/com/kjlc/app/repository/QuestionRepository.java       | Java            |          5 |          0 |          1 |          6 |
+| /Users/saugatsingh/app/src/main/java/com/kjlc/app/repository/SubmissionRepository.java     | Java            |          5 |          0 |          5 |         10 |
+| /Users/saugatsingh/app/src/main/java/com/kjlc/app/services/QuestionService.java            | Java            |          2 |          0 |          0 |          2 |
+| /Users/saugatsingh/app/src/main/java/com/kjlc/app/services/SubmissionService.java          | Java            |          5 |          0 |          3 |          8 |
+| /Users/saugatsingh/app/src/main/java/com/kjlc/app/services/TestService.java                | Java            |          6 |          0 |          3 |          9 |
+| /Users/saugatsingh/app/src/main/java/com/kjlc/app/services/impl/QuestionServiceImpl.java   | Java            |          4 |          0 |          4 |          8 |
+| /Users/saugatsingh/app/src/main/java/com/kjlc/app/services/impl/SubmissionServiceImpl.java | Java            |         18 |          0 |          7 |         25 |
+| /Users/saugatsingh/app/src/main/java/com/kjlc/app/services/impl/TestServiceImpl.java       | Java            |          2 |          0 |          3 |          5 |
+| /Users/saugatsingh/app/src/main/resources/application.properties                           | Java Properties |          0 |          0 |         -1 |         -1 |
+| /Users/saugatsingh/app/src/main/resources/templates/createTest2.html                       | HTML            |        -75 |          0 |          0 |        -75 |
+| /Users/saugatsingh/app/src/main/resources/templates/login-notused.html                     | HTML            |        -60 |          0 |         -6 |        -66 |
+| /Users/saugatsingh/app/src/main/resources/templates/register-admin.html                    | HTML            |        -73 |         -3 |         -5 |        -81 |
+| /Users/saugatsingh/app/src/main/resources/templates/test-2.html                            | HTML            |        107 |          0 |         16 |        123 |
+| /Users/saugatsingh/app/src/main/resources/templates/test-3.html                            | HTML            |         38 |          0 |          4 |         42 |
+| /Users/saugatsingh/app/src/main/resources/templates/test.html                              | HTML            |         28 |          0 |          4 |         32 |
+| /Users/saugatsingh/app/src/main/resources/templates/testView.html                          | HTML            |          9 |          0 |          0 |          9 |
+| Total                                                                                      |                 |        118 |         -2 |         59 |        175 |
++--------------------------------------------------------------------------------------------+-----------------+------------+------------+------------+------------+

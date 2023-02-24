@@ -1,0 +1,55 @@
+Date : 2023-02-19 10:12:30
+Directory : /Users/saugatsingh/Documents/Projects/app
+Total : 17 files,  727 codes, 7 comments, 88 blanks, all 822 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| HTML     |          4 |        645 |          6 |         75 |        726 |
+| Java     |         13 |         82 |          1 |         13 |         96 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                       | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                          |         17 |        727 |          7 |         88 |        822 |
+| src                                                                                                        |         17 |        727 |          7 |         88 |        822 |
+| src/main                                                                                                   |         17 |        727 |          7 |         88 |        822 |
+| src/main/java                                                                                              |         13 |         82 |          1 |         13 |         96 |
+| src/main/java/com                                                                                          |         13 |         82 |          1 |         13 |         96 |
+| src/main/java/com/kjlc                                                                                     |         13 |         82 |          1 |         13 |         96 |
+| src/main/java/com/kjlc/app                                                                                 |         13 |         82 |          1 |         13 |         96 |
+| src/main/java/com/kjlc/app/controller                                                                      |          4 |         41 |          1 |          7 |         49 |
+| src/main/java/com/kjlc/app/repository                                                                      |          2 |          8 |          0 |          1 |          9 |
+| src/main/java/com/kjlc/app/services                                                                        |          7 |         33 |          0 |          5 |         38 |
+| src/main/java/com/kjlc/app/services (Files)                                                                |          3 |          6 |          0 |          0 |          6 |
+| src/main/java/com/kjlc/app/services/impl                                                                   |          4 |         27 |          0 |          5 |         32 |
+| src/main/resources                                                                                         |          4 |        645 |          6 |         75 |        726 |
+| src/main/resources/templates                                                                               |          4 |        645 |          6 |         75 |        726 |
++------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                   | language | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/controller/AdminController.java       | Java     |          2 |          1 |          0 |          3 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/controller/AdminDashController.java   | Java     |         33 |          0 |          6 |         39 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/controller/UserController.java        | Java     |          1 |          0 |          0 |          1 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/controller/UserDashController.java    | Java     |          5 |          0 |          1 |          6 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/repository/ResultRepository.java      | Java     |          2 |          0 |          1 |          3 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/repository/StudentRepository.java     | Java     |          6 |          0 |          0 |          6 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/ResultService.java           | Java     |          2 |          0 |          0 |          2 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/StudentService.java          | Java     |          3 |          0 |          0 |          3 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/UserService.java             | Java     |          1 |          0 |          0 |          1 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/impl/ResultServiceImpl.java  | Java     |         10 |          0 |          2 |         12 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/impl/StudentServiceImpl.java | Java     |         11 |          0 |          0 |         11 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/impl/TestServiceImpl.java    | Java     |          1 |          0 |          0 |          1 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/java/com/kjlc/app/services/impl/UserServiceImpl.java    | Java     |          5 |          0 |          3 |          8 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/templates/editStudent.html                    | HTML     |        119 |          3 |         12 |        134 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/templates/listResult.html                     | HTML     |        208 |          1 |         21 |        230 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/templates/listUserResult.html                 | HTML     |        159 |          1 |         21 |        181 |
+| /Users/saugatsingh/Documents/Projects/app/src/main/resources/templates/userHome.html                       | HTML     |        159 |          1 |         21 |        181 |
+| Total                                                                                                      |          |        727 |          7 |         88 |        822 |
++------------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+

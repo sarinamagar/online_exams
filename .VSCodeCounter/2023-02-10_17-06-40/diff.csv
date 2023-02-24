@@ -1,0 +1,26 @@
+"filename", "language", "Java Properties", "Java", "HTML", "comment", "blank", "total"
+"/Users/saugatsingh/app/src/main/java/com/kjlc/app/Entity/Question.java", "Java", 0, 1, 0, 0, 0, 1
+"/Users/saugatsingh/app/src/main/java/com/kjlc/app/Entity/Submission.java", "Java", 0, 22, 0, 0, 4, 26
+"/Users/saugatsingh/app/src/main/java/com/kjlc/app/Entity/Test.java", "Java", 0, -9, 0, 0, 0, -9
+"/Users/saugatsingh/app/src/main/java/com/kjlc/app/SecurityContext/Context.java", "Java", 0, 8, 0, 1, 4, 13
+"/Users/saugatsingh/app/src/main/java/com/kjlc/app/controller/AdminController.java", "Java", 0, 3, 0, 0, 0, 3
+"/Users/saugatsingh/app/src/main/java/com/kjlc/app/controller/AdminDashController.java", "Java", 0, 26, 0, 0, 5, 31
+"/Users/saugatsingh/app/src/main/java/com/kjlc/app/controller/UserController.java", "Java", 0, 17, 0, 0, 1, 18
+"/Users/saugatsingh/app/src/main/java/com/kjlc/app/controller/UserDashController.java", "Java", 0, 29, 0, 0, 7, 36
+"/Users/saugatsingh/app/src/main/java/com/kjlc/app/repository/QuestionRepository.java", "Java", 0, 5, 0, 0, 1, 6
+"/Users/saugatsingh/app/src/main/java/com/kjlc/app/repository/SubmissionRepository.java", "Java", 0, 5, 0, 0, 5, 10
+"/Users/saugatsingh/app/src/main/java/com/kjlc/app/services/QuestionService.java", "Java", 0, 2, 0, 0, 0, 2
+"/Users/saugatsingh/app/src/main/java/com/kjlc/app/services/SubmissionService.java", "Java", 0, 5, 0, 0, 3, 8
+"/Users/saugatsingh/app/src/main/java/com/kjlc/app/services/TestService.java", "Java", 0, 6, 0, 0, 3, 9
+"/Users/saugatsingh/app/src/main/java/com/kjlc/app/services/impl/QuestionServiceImpl.java", "Java", 0, 4, 0, 0, 4, 8
+"/Users/saugatsingh/app/src/main/java/com/kjlc/app/services/impl/SubmissionServiceImpl.java", "Java", 0, 18, 0, 0, 7, 25
+"/Users/saugatsingh/app/src/main/java/com/kjlc/app/services/impl/TestServiceImpl.java", "Java", 0, 2, 0, 0, 3, 5
+"/Users/saugatsingh/app/src/main/resources/application.properties", "Java Properties", 0, 0, 0, 0, -1, -1
+"/Users/saugatsingh/app/src/main/resources/templates/createTest2.html", "HTML", 0, 0, -75, 0, 0, -75
+"/Users/saugatsingh/app/src/main/resources/templates/login-notused.html", "HTML", 0, 0, -60, 0, -6, -66
+"/Users/saugatsingh/app/src/main/resources/templates/register-admin.html", "HTML", 0, 0, -73, -3, -5, -81
+"/Users/saugatsingh/app/src/main/resources/templates/test-2.html", "HTML", 0, 0, 107, 0, 16, 123
+"/Users/saugatsingh/app/src/main/resources/templates/test-3.html", "HTML", 0, 0, 38, 0, 4, 42
+"/Users/saugatsingh/app/src/main/resources/templates/test.html", "HTML", 0, 0, 28, 0, 4, 32
+"/Users/saugatsingh/app/src/main/resources/templates/testView.html", "HTML", 0, 0, 9, 0, 0, 9
+"Total", "-", 0, 144, -26, -2, 59, 175
